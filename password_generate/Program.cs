@@ -11,7 +11,6 @@ namespace password_generate
         static void Main(string[] args)
         {
             //Смогу объяснить каждую строку написанного мною кода :)
-            Random rnd = new Random();
             Console.Write("Введите количесвтво паролей: ");
 
             Generator generator = new Generator();
